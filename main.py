@@ -3,6 +3,8 @@ import random
 
 CHOICES = ["rock", "paper", "scissors"]
 
+print("Make your throw")
+
 user_choice = input("   Type rock, paper, or scissors:  ")
 
 if user_choice in CHOICES:
@@ -12,3 +14,4 @@ if user_choice in CHOICES:
   )
 else:
   print(f"\nYou typed '{user_choice}' which isn't a valid throw")
+
