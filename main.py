@@ -37,6 +37,11 @@ while True:
 
     again = input("\nWould you like to play again? (y/n): ")
     if again.lower() == "no":
-    
+      
+
+        print()
+        
         print("\nGoodbye!")
+
+        break
 
